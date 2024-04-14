@@ -8,5 +8,8 @@ declare type CreateUserType = {
 }
 
 declare type UpdateUserType = {
-    
+    username: string;
+    photo: string;
+    firstName?: string;
+    lastName?: string;
 }
